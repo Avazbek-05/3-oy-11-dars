@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container1 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+.bt {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+   
+    transition: 0.7s;
+}
+
+#check:checked ~ .menu{
+    left: 0;
+}
