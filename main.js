@@ -1,6 +1,9 @@
 // 1-masala-----------------------------------
 // function arrayMadness(a, b) {
-// return a.reduce((acc1,vel1)=>acc1+vel1**2,0)>b.reduce((acc2,vel2)=>acc2+vel2**3,0)
+//   return (
+//     a.reduce((sum, velu) => sum + velu ** 2, 0) >
+//     b.reduce((sum, velu) => sum + velu ** 3, 0)
+//   );
 // }
 // console.log(arrayMadness([3], [2]));
 
@@ -44,8 +47,8 @@
 // };
 // console.log(findAverage([2,2,2,4]));
 //6-masala----------------------------------
-// function findSmallestInt(arr) {
-//   let min = Math.min(...arr);
-//   return min;
-// }
-// console.log(findSmallestInt([34, 15, 88, 2]));
+function findSmallestInt(arr) {
+  let min = Math.min(...arr);
+  return min;
+}
+console.log(findSmallestInt([34, 15, 88, 2]));
