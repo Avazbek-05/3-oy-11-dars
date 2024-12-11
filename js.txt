@@ -1,0 +1,21 @@
+---debugging--xatolorni topish va tuzatush dasturlashda muhim bosqichlardan biri hisoblanadi .
+----Console object - JavaScript'da turli ma'lumotlarni brauzerning developer tools oynasida ko'rsatish 
+imkonini berüvchi obyekt.
+----console. table - Bu funksiya massiv yoki obyektlarni jadvallarda ko'rsatish uchun ishlatiladi. 
+Ushbu metod ma'lumotlarni ko'rish va tahlil gilishni osonlashtiradi.
+---Debugger-bu kalit so'z ishlatilgan joyda kodni avtamatik ravishda to'xtaydi brauzerda IDE da debugin oynasi ochiladi.
+---Rubber duck debugging--Bu jarayonda dasturchi muammoni ovoz chigarib tushuntiradi va shu orgali xatolarni o'zi ko'rib golishi mumkin.
+---Errorlar:
+1 Syntax Error -Kodning noto‘g‘ri yozilishi sababli paydo bo‘ladi.
+2 Reference Error-Aniqlanmagan o‘zgaruvchiga murojaat qilinganda yuzaga keladi.
+3-Type Error-Noto‘g‘ri ma’lumot turiga ega o‘zgaruvchi bilan amal bajarishga urinish.
+4- Range Error -Ruxsat etilgan doiradan chiqib ketganda yuzaga keladi.
+5-Custom Error -Dasturchilar o‘zlari xatoliklarni aniqlash va chiqarishlari mumkin:Dasturchilar o‘zlari xatoliklarni aniqlash va chiqarishlari mumkin:
+--try: Xatolik yuz berishi mumkin bo‘lgan kodni yozish uchun ishlatiladi.
+--catch: Agar xatolik yuz bersa, bu bo‘lak ishlaydi va xatoni boshqaradi.
+--finally: Xatolik yuz bergan yoki bermagan bo‘lsa ham, doim ishlaydigan bo‘lak.
+--use strict — bu qat'iy rejimni (strict mode) yoqadigan maxsus ibora. U kodning ishlashida qat'iy qoidalarni joriy qiladi va dasturchilarni potentsial xatolarga qarshi ogohlantiradi.
+--this--- kalit so‘zi dinamik kontekstga asoslangan bo‘lib, u ishlatilayotgan joyga qarab turli obyektlarga ishora qiladi. Bu JavaScript-ning muhim qismi va asosan funksiyalar va obyektlar bilan ishlashda qo‘llaniladi.
+--JavaScript engine - bu JavaScript kodini tahlil qiluvchi, uni mashina tiliga o'zgartiruvchi va ishlovchi dasturiy ta'minotdir.
+--SpiderMonkey - Mozilla Firefox brauzerida ishlatiladigan birinchi JavaScript engine hisoblanadi. Bu engine ham JavaScript kodini interpretatsiya va JIT orqali kompilyatsiya qiladi.
+--JavaScriptCore boshqa nomi Nitro, Safari brauzerida ishlatiladi. Bu engine ham JIT kompilyatsiyadan foydalanib JavaScript kodini optimizatsiyalangan tarzda ishlatadi.
