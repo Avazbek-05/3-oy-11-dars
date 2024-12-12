@@ -1,8 +1,16 @@
+
+// 2-m
 // function regexTex(tel) {
 //   let regex = /^\(\d{3}\)?[-]?\d{3}-\d{4}$/;
 //   return regax.test(tel);
 // }
 // console.log(regexTex("123-456-7890"));
+// 3-masala
+// function regaxURL(url){
+//     let urlnam=/^https?:\/\/[^\s]+$/;
+//     return urlnam.test(url);
+// }
+// console.log(regaxURL("http://example.com"));
 
 // 4-masala
 
@@ -14,12 +22,12 @@
 
 //5-masala
 
-function satr(str) {
-    let regex = /^A.*Z$/; 
-    return regex.test(str);
-}
+// function satr(str) {
+//     let regex = /^A.*Z$/gm; 
+//     return regex.test(str);
+// }
 
-console.log(satr(AnekrbfkerfZ));
+// console.log(satr(AnekrbfkerfZ));
 
 
 //  6-masala
