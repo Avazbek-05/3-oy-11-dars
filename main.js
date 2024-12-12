@@ -47,8 +47,8 @@
 // };
 // console.log(findAverage([2,2,2,4]));
 //6-masala----------------------------------
-function findSmallestInt(arr) {
-  let min = Math.min(...arr);
-  return min;
-}
-console.log(findSmallestInt([34, 15, 88, 2]));
+// function findSmallestInt(arr) {
+//   let min = Math.min(...arr);
+//   return min;
+// }
+// console.log(findSmallestInt([34, 15, 88, 2]));
